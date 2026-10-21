@@ -1,0 +1,5 @@
+
+.no-top-border th,
+.no-top-border td{border-top: none !important;}
+
+.tooltip-table th{text-align: left !important;}

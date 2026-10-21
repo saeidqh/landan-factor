@@ -1,0 +1,7 @@
+.tr-child-content{
+    background: rgb(255, 250, 239);/*rgb(255, 246, 228);*/
+    padding: 5px;
+    border: solid 1px #33C6CC;
+    border-left: solid 10px #33C6CC;
+    margin:-3px;
+}

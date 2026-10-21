@@ -1,0 +1,89 @@
+input[type=text]{height: 30px;} 
+.table > thead > tr > td{padding:4px;} 
+
+
+.table {font-family: tahoma; font-size:11px; width:100%; } 
+
+.table input[type='text']{font-family: tahoma; font-size:12px; width:100%;} 
+.table tr{/*height:100px !important;overflow: hidden*/}
+.table tr th{text-align:center;}
+.table tr td{padding:0 important;text-align: center;}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    padding: 3px !important;
+    vertical-align: middle;
+}
+
+
+.table .filters td{
+/*    background: rgb(231, 210, 189);*/
+    background: #black;
+}
+.table td{
+    max-height: 42px !important;
+    
+}
+.table .table-responsive1
+{
+    overflow: visible !important;    
+}
+.table tbody>tr>td, 
+.table tbody>tr>th, 
+.table tfoot>tr>td, 
+.table tfoot>tr>th, 
+.table thead>tr>td, 
+.table thead>tr>th {
+    border-top: 1px solid #E7E7E7;
+}
+.table.table-bordered thead tr{
+    background:#71d398;
+    height:35px;
+    color:#fff;
+}
+
+.table.table-bordered thead tr th a{
+    color:#fff;
+}
+
+.table .td-indent-popup{
+    min-width: 10px;
+    background: #eee !important; 
+    position:relative;
+    border-color: #eee !important;
+}
+.table .td-indent-popup .indent-line{
+/*    height:100%;
+    width: 100%;*/
+    border-left: solid 1px white;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left:0px;
+    right:0;
+    
+       
+}
+
+.table .td-indent{
+    width:10px;
+    background: #9543FD; 
+}
+/*.table th{
+    line-height: 3 !important;
+    background: rgb(0, 144, 175) !important;
+    color:#DADADA !important;
+    
+}
+.table th a {
+    color:#fff !important;
+}*/
+.psa-grid .filters td{
+    background: rgb(226, 235, 215);
+}
+.kv-grid-table .filters td{
+    background: rgb(226, 235, 215);
+}
